@@ -70,6 +70,11 @@ fun ActivityPertama(modifier: Modifier) {
                         color = Color.White,
                         modifier = Modifier.padding(top = 15.dp)
                     )
+                    Text(
+                        stringResource(R.string.alamat)
+                    )
+                }
+            }
         }
     }
 }
