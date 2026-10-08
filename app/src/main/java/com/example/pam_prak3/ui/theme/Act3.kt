@@ -62,9 +62,11 @@ fun ActivityPertama(modifier: Modifier) {
                     modifier = Modifier.size(100.dp).padding(5.dp)
                 )
                 Spacer(modifier = Modifier.width(30.dp))
-                Column() {
-                }
-            )
+                Column(){
+                    Text(
+                        stringResource(R.string.nama),
+
+                    )
         }
     }
 }
